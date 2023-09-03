@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 1px;
+    padding: 0;
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: burlywood;
+}
+
+.Header{
+    background-color: saddlebrown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+/* Logo */
+.Header .logo{
+    cursor: pointer;
+}
+
+.Header .logo img{
+    height: 75px;
+    width: 110px;
+    transition: all 0.3s;
+    margin-bottom: -4%;
+    border-radius: 10%;
+}
+
+.Header .logo img :hover{
+    transform: scale(1.2);
+}
+
+/* Links */
+.Header .nav-links :hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.Header .nav-links{
+    list-style: none;
+}
+
+.Header .nav-links li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.Header .nav-links a{
+
+    color: burlywood;
+    text-decoration: none;
+}
+
+.Header .nav-links li a:hover{
+    color: rgb(57, 35, 6);
+}
